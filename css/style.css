@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#figma-section .left-section #figma-section .right-section {
+    width: 45%;
+    justify-content: space-between;
+    
+}
+
+#figma-section .left-section p {
+    font-size: 16px;
+}
+
+#figma-section .right-section {
+    margin-left: 70px;
+}
+
+.orange-btn {
+    background: #FF6433;
+border-radius: 12px;
+padding: 16px 40px;
+text-decoration: none;
+font-size: 18px;
+margin-top: 35px;
+display: inline-block;
+color: #fff;
+}
+
+#figma-section .left-section h1 {
+    font-size: 58px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.flex {
+    display: flex;
+}
+
+#figma-section .right-section ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+#figma-section {
+    width: 70%;
+    margin: auto;
+}
+
+.container {
+    margin: auto;
+    margin-top: 50px;
+}
+
+#figma-section .right-section .image-box {
+    width: 15%;
+    margin-right: 10px;
+}
+
+#figma-section .right-section .image-box img {
+    width: 100%;
+}
+
+#figma-section .container {
+    justify-content: space-between;
+}
+
+#item-section {
+    background: #F2F2F2;
+
+}
+
+#item-section .container {
+    padding: 0px 30px 0px 30px;
+}
+
+#item-section .flex-section {
+    width: 100%;
+}
+
+#item-section p {
+    text-align: center;
+     margin-top: 90px;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+font-family: sans-serif;
+}
+
+#item-section h1 {
+    font-weight: 800;
+font-size: 58px;
+margin-bottom: 50px;
+text-align: center;
+}
+
+#item-section .flex-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#item-section .flex-section a {
+    padding-top: 60px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    right: 20%;
+   
+}
+
+#car-section {
+    background: #F2F2F2;
+    
+
+}
+
+#car-section .image-section {
+    height: 40vh;
+    display: flex;
+}
+
+#car-section .number-section {
+    height: 15vh;
+}
+
+#car-section .brands-section {
+    height: 45vh;
+    background: #fff;
+}
+
+
+ #car-section .image-section .first-car-section {
+    width: 55%;
+    height: 40vh;
+    background-image: url(https://i.postimg.cc/P5b0w6Xs/Image-1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+ }
+
+ #car-section .image-section .car-charger {
+     width: 45%;
+     height: 40vh;
+     background-image: url(https://i.postimg.cc/kMKPrLdB/car-charger.jpg);
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ #car-section .image-section .write-up-section{
+     width: 40%;
+     height: 40vh;
+     background-color: #FF6433;
+     position: absolute;
+     left: 20%;
+ }
+
+ #car-section .image-section .write-up-section h2 {
+     color: #fff;
+     font-weight: 500;
+     font-size: 38px;
+     padding-top: 30px;
+     margin-left: 40px;
+     font-family: sans-serif;
+    
+ }
+
+ .black-btn {
+    background: #1E1B1B;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #fff;
+    
+ }
+ button {
+     margin-left: 40px;
+ }
+
+ #car-section .number-section {
+     padding: 0px 20px 0px 20px;
+ }
+
+ #car-section .number-section .number {
+     display: flex;
+     justify-content: space-around;
+     color: #661CE7;
+     font-size: 25px;
+     padding-top: 15px;
+ }
+
+ #car-section .number-section .words {
+     display: flex;
+     justify-content: space-around;
+     color: #3a3636;
+     font-weight: 600;
+ }
+
+ #car-section .brands-section .brands {
+     width: 80%;
+ }
+
+ #car-section .brands-section .brands h1 {
+     padding-top: 45px;
+     margin-bottom: 15px;
+     text-align: center;
+     font-size: 48px;
+     font-weight: bold;
+    
+     
+ }
+
+ #car-section .brands-section .logo {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ #car-section .brands-section .logo-2 {
+     justify-content: space-around;
+}
+

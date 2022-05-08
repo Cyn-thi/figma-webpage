@@ -1,0 +1,948 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.road-assistance {
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+.right-section ul li {
+    margin-right: 20px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+
+.road-assistance .icon {
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+   
+}
+
+#hero-section .text-section{
+    width: 40%;
+}
+
+
+#hero-section .image-section {
+    width: 60%;
+}
+
+#hero-section, #quote-section {
+    padding: 80px 0;
+}
+
+#hero-section .image-section {
+    background-image: url(https://i.postimg.cc/52hF8JFC/Header-Image.png);
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+}
+
+.text-section h1 {
+    font-size: 64px;
+}
+
+.orange-btn {
+    background: #FF6433;
+border-radius: 12px;
+padding: 16px 40px;
+text-decoration: none;
+font-size: 18px;
+margin-top: 35px;
+display: inline-block;
+color: #fff;
+
+}
+
+.text-section .image-box {
+width:5%;
+margin-right: 10px;
+align-items: center;
+justify-content: center;
+}
+
+.time-section img {
+    width: 100%;
+}
+
+.time-section {
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+
+}
+
+.text-section .time-text {
+    width: 95%;
+}
+
+.light-gray {
+    color: #939191;
+}
+
+#quote-section {
+    background: #E2E6E9;
+}
+
+#quote-section .left-section, #quote-section .right-form-section {
+    width: 45%;
+
+}
+
+#quote-section ul {
+    list-style: none;
+}
+
+#quote-section .left-section h2 {
+    margin-bottom: 30px;
+    font-size: 58px;
+}
+
+#quote-section .left-section ul li .flex-1 {
+    display: flex;
+}
+
+#quote-section .left-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+}
+
+#quote-section .left-section .text-box {
+    width: 50%;
+}
+
+#quote-section .left-section .image-box img {
+    width: 100%;
+}
+
+#quote-section .left-section .text-box h5 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#quote-section ul li {
+    margin-bottom: 20px;
+}
+
+#quote-section .right-form-section h3 {
+font-size: 48px;
+margin-bottom: 30px;
+}
+
+#quote-section .right-form-section input {
+    width: 100%;
+    padding: 10px;
+}
+
+#quote-section .right-form-section .input-box {
+    margin-bottom: 20px;
+}
+
+
+
+#figma-section .left-follow-section {
+    width: 50%;
+}
+
+
+
+#figma-section .left-follow-section p {
+    font-size: 16px;
+}
+
+#figma-section .right-follow-section {
+    margin-left: 70px;
+    width: 40%;
+}
+
+#figma-section .right-follow-section .flex-1 {
+    display: flex;
+}
+
+
+.orange-btn {
+    background: #FF6433;
+border-radius: 12px;
+padding: 16px 40px;
+text-decoration: none;
+font-size: 18px;
+margin-top: 35px;
+display: inline-block;
+color: #fff;
+}
+
+#figma-section .left-follow-section h2 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#figma-section .right-follow-section ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+#figma-section {
+    width: 90%;
+    margin: auto;
+}
+
+.container {
+    margin: auto;
+    margin-top: 50px;
+}
+
+#figma-section .right-follow-section .image-box {
+    width: 12%;
+    margin-right: 10px;
+}
+
+#figma-section .right-follow-section .image-box img {
+    width: 100%;
+}
+
+#figma-section .right-follow-section .text-box {
+    width: 70%;
+}
+
+#figma-section .right-follow-section .text-box h1 {
+    margin-bottom: 15px;
+   
+}
+
+#figma-section .container {
+    justify-content: space-between;
+}
+
+#item-section {
+    background: #F2F2F2;
+    min-height: 100vh;
+
+}
+
+#item-section .container {
+    padding: 0px 30px 0px 30px;
+}
+
+#item-section .flex-section {
+    width: 100%;
+}
+
+#item-section .container h5 {
+    text-align: center;
+     margin-top: 90px;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: sans-serif;
+}
+
+#item-section h1 {
+    font-weight: 800;
+    font-size: 58px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#item-section .flex-section .flex-section-box {
+    background: #ffff;
+    height: 232px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 24%;
+    margin-bottom: 10px;
+   
+}
+
+#item-section .flex-section .flex-section-box:hover {
+    background: #FF6433;
+    color: #fff;
+}
+
+#item-section .flex-section {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#item-section a {
+    padding-top: 60px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    right: 20%;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+#car-section {
+    background: #F2F2F2;
+    
+
+}
+
+#car-section .image-section {
+    height: 40vh;
+    display: flex;
+}
+
+#car-section .number-section {
+    height: 15vh;
+}
+
+#car-section .brands-section {
+    height: 70vh;
+    background: #fff;
+}
+
+
+ #car-section .image-section .first-car-section {
+    width: 55%;
+    height: 40vh;
+    background-image: url(https://i.postimg.cc/P5b0w6Xs/Image-1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+ }
+
+ #car-section .image-section .car-charger {
+     width: 45%;
+     height: 40vh;
+     background-image: url(https://i.postimg.cc/kMKPrLdB/car-charger.jpg);
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ #car-section .image-section .write-up-section{
+     width: 40%;
+     height: 40vh;
+     background-color: #FF6433;
+     position: absolute;
+     left: 20%;
+ }
+
+ #car-section .image-section .write-up-section h2 {
+     color: #fff;
+     font-weight: 500;
+     font-size: 38px;
+     padding-top: 30px;
+     margin-left: 40px;
+     font-family: sans-serif;
+    
+ }
+
+ .black-btn {
+    background: #1E1B1B;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #fff;
+    
+ }
+ button {
+     margin-left: 40px;
+ }
+
+ #car-section .number-section {
+     padding: 0px 20px 0px 20px;
+ }
+
+ #car-section .number-section .number {
+     display: flex;
+     justify-content: space-around;
+     color: #661CE7;
+     font-size: 25px;
+     padding-top: 15px;
+ }
+
+ #car-section .number-section .words {
+     display: flex;
+     justify-content: space-around;
+     color: #3a3636;
+     font-weight: 600;
+ }
+
+ #car-section .brands-section .brands {
+     width: 80%;
+ }
+
+ #car-section .brands-section .brands h1 {
+     padding-top: 45px;
+     margin-bottom: 15px;
+     text-align: center;
+     font-size: 48px;
+     font-weight: bold;
+    
+     
+ }
+
+ #car-section .brands-section .logo {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ #car-section .brands-section .logo-2 {
+     justify-content: space-around;
+}
+
+#review-section {
+    background: #F2F2F2;
+    min-height: 70vh;
+    padding: 70px 0;
+}
+
+#review-section .container h3 {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%; 
+}
+
+#review-section .review-slider {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+
+}
+
+
+#review-section .review-slider .review {
+    padding-top: 15px;
+    font-size: 24px;
+}
+
+#review-section .review-slide {
+    width: 48%;
+    background: #FFFFFF;
+    border: 1px solid rgba(172, 172, 172, 0.29);
+    box-shadow: 11px 130px 100px 30px rgba(0, 0, 0, 0.02);
+    border-radius: 6px;
+    padding: 30px;
+}
+
+#review-section .review-slide .person-t {
+    display: flex;
+}
+
+#review-section .review-slide .person-info h5 {
+    font-size: 24px;
+    margin-bottom: 7px;
+}
+
+#review-section .review-slide .person-t img {
+    width: 12%;
+    margin-right: 10px;
+
+}
+
+#review-section .courier {
+    display: flex;
+    justify-content: space-between;
+}
+
+#review-section .courier .lines {
+    align-items: center;
+    text-align: center;
+}
+
+#review-section .courier .arrow {
+    display: flex;
+    justify-content: flex-end;
+ 
+}
+
+#faq-section {
+    background: #E2E6E9;
+    min-height: 100vh;
+    padding: 80px 0;
+}
+
+#faq-section .container {
+    padding-top: 20px;
+}
+
+
+#faq-section .container h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    
+}
+
+#faq-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#faq-section .faq-main-box {
+    width: 60%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#faq-section .faq-main-box .faq-box {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.faq-box .header-section h4 {
+    font-size: 24px;
+}
+
+.faq-box .answer-section {
+    padding-top: 10px
+}
+
+
+
+.faq-box .answer-section .answer-box {
+    width: 80%;
+}
+
+
+
+#faq-section .faq-main-box .faq-box .faq-control h2 {
+    background: #FF6433;
+    width: 40px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.faq-box .header-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#touch-section {
+    background: #1E1B1B;
+    min-height: 40vh;
+    padding: 80px 0;
+}
+
+#touch-section .left-touch-section {
+    width: 40%;
+}
+
+#touch-section .left-touch-section h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700 bold;
+    margin-bottom: 40px;
+}
+
+#touch-section .left-touch-section .social-media {
+    width: 70%;
+    gap: 20px;
+    display: flex;
+}
+
+#touch-section .right-touch-section {
+    width: 40%;
+}
+
+#touch-section .right-touch-section .items ul li p {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+#touch-section .right-touch-section .items ul li {
+    list-style: none;
+}
+
+#touch-section .right-touch-section h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#touch-section .container {
+    justify-content: space-between;
+}
+
+#end {
+    background: #1E1B1B;
+    min-height: 60px;
+}
+
+#end .right-section .navigation-1 ul li a {
+    color: #fff;
+}
+
+#end .road-assistance .inner-section {
+    color: #fff;
+}
+
+@media (max-width: 426px) {
+    .main-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .right-section ul {
+        flex-direction: column;
+    }
+
+    
+    .right-section {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .right-section .navigation {
+        border: none;
+        width: 100%;
+    }
+
+    .right-section ul li {
+        padding: 10px 0;
+        margin-right: 0px;
+    }
+
+    .right-section ul li a {
+        display: block;
+    }
+
+    .road-assistance {
+        padding: 10px 0;
+    }
+
+    .flex-sm-column {
+        flex-direction: column;
+    }
+
+    #hero-section .text-section, #hero-section .image-section {
+        width: 100%;
+    }
+
+    #hero-section .text-section {
+        order: 2;
+    }
+
+    #hero-section .image-section {
+        order: 1;
+        margin-bottom: 25px;
+    }
+
+    .text-section h1 {
+        font-size: 35px;
+    }
+
+    #quote-section .left-section, #quote-section .right-form-section {
+        width: 100%;
+    }
+
+    #quote-section .left-section h2, #quote-section .right-form-section h3 {
+        font-size: 35px;
+    }
+
+    #quote-section .left-section .image-box {
+        width: 10%;
+    }
+
+    #quote-section .left-section .text-box {
+        width: 80%;
+    }
+
+    #figma-section .left-follow-section, #figma-section .right-follow-section {
+        width: 100%;
+    }
+
+    #figma-section .left-follow-section h2 {
+        width: 100%;
+    }
+
+    #figma-section .left-follow-section p {
+        width: 100%;
+    }
+
+    .orange-btn {
+        margin-bottom: 40px;
+    }
+
+    #figma-section .right-follow-section {
+        margin-left: 0px;
+    }
+
+    #item-section h1 {
+        font-size: 35px;
+    }
+
+    #item-section a {
+        margin-bottom: 0px;
+    }
+
+    #item-section .flex-section .flex-section-box {
+        width: 100%;
+    }
+
+    #car-section .image-section {
+        height: 50vh;
+        flex-direction: column;
+    }
+
+    #car-section .image-section .first-car-section {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    #car-section .image-section .car-charger {
+        width: 100%;
+    }
+
+    #car-section .image-section .write-up-section {
+        height: 50vh;
+    }
+
+    #car-section {
+        margin-top: 20px;
+    }
+
+    #car-section .image-section .write-up-section h2 {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .black-btn {
+        padding: 7px 10px;
+    }
+
+    #car-section .number-section {
+        height: 25vh;
+    }
+
+    #car-section .number-section .number {
+        font-size: 15px;
+    }
+
+    #car-section .number-section .words {
+        margin-left: 30px;
+    }
+
+    #car-section .brands-section {
+       height: 70vh;
+    }
+
+    #review-section .container h3 {
+        font-size: 35px;
+    }
+
+    #review-section .review-slider {
+        flex-direction: column;
+    }
+
+    #review-section .review-slide {
+        width: 100%;
+    }
+
+    #review-section .review-slide .person-t img {
+        width: 15%;
+    }
+
+    #review-section .courier {
+        justify-content: space-between;
+    }
+
+    #faq-section .faq-main-box {
+        width: 100%;
+    }
+
+    .faq-box .header-section h4 {
+        font-size: 18px;
+    }
+
+    #faq-section .faq-main-box .faq-box {
+        padding: 10px;
+    }
+
+    .faq-box .answer-section {
+        padding: 0px;
+    }
+
+    #touch-section .left-touch-section, #touch-section .right-touch-section {
+        width: 100%;
+    }
+
+    #touch-section .left-touch-section h1 {
+        font-size: 35px;
+    }
+
+    #touch-section .left-touch-section .social-media {
+        margin-bottom: 30px;
+    }
+    
+    #touch-section .right-touch-section h2 {
+        font-size: 20px;
+    }
+
+    #car-section .brands-section .logo {
+        flex-wrap: wrap;
+    }
+
+    #car-section .brands-section .logo img {
+        width: 55%;
+    }
+
+    #car-section .brands-section .brands h1 {
+        font-size: 35px;
+    }
+
+    #car-section .brands-section {
+        height: 200vh;
+    }
+
+
+}
+
+@media (max-width: 769px) {
+    .road-assistance {
+        display: none;
+    }
+
+    .text-section h1 {
+        font-size: 48px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    #hero-section .image-section {
+        height: 90vh;
+    }
+
+    #quote-section .left-section h2 {
+        font-size: 40px;
+    }
+
+    #quote-section .left-section .image-box {
+        width: 12%;
+    }
+
+    #quote-section .left-section .text-box {
+        width: 70%;
+    }
+
+    #quote-section .right-form-section h3 {
+        font-size: 40px;
+    }
+
+    #figma-section .left-follow-section h2 {
+        font-size: 40px;
+    }
+
+    #figma-section .right-follow-section .text-box {
+        width: 80%;
+    }
+
+    #figma-section .right-follow-section .text-box h1 {
+        margin-bottom: 10px;
+    }
+
+    #item-section h1 {
+        font-size: 40px;
+    }
+
+    #car-section .image-section .first-car-section {
+        height: 50vh;
+    }
+
+    #car-section .image-section .car-charger {
+        height: 50vh;
+    }
+
+    #car-section .image-section .write-up-section, #car-section .image-section {
+        height: 50vh;
+    }
+
+    #car-section .image-section .write-up-section h2 {
+        font-size: 25px;
+    }
+
+    .black-btn {
+        margin-top: 20px;
+    }
+
+    #car-section .number-section {
+        height: 20vh;
+    }
+
+    #car-section .brands-section {
+        height: 150vh;
+    }
+
+    #car-section .brands-section .logo {
+        flex-wrap: wrap;
+    }
+
+    #review-section .container h3 {
+        font-size: 40px;
+    }
+
+    #review-section .review-slide .person-t img {
+        width: 15%;
+    }
+
+    #faq-section .container h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+}
